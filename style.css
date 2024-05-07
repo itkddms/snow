@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Pretendard Variable';
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/variable/pretendardvariable.css");
+
+
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(100deg, rgba(0, 0, 0, 0.8)) !important; 
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrap-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.gnb ol{
+    margin-left: 296px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 68px;
+}
+
+.gnb li{
+    list-style: none;
+}
+
+.gnb li a{
+    font-size: 18px;
+    font-weight: 600;
+    color:#3C3C3C;
+    transition: 0.2s all ease-in-out;
+}
+
+.gnb li a:hover{
+    font-weight: 600;
+    color:#00CDF5;
+}
+
+.lang{
+    margin-left: 296px;
+    display: flex;
+    gap: 20px;
+}
+
+.content{
+    width: 100%;
+    margin-top: 164px;
+    display: flex;
+    gap: 206px;
+    justify-content: center;
+}
+
+.icon img{
+    transition: all ease 0.3s;
+}
+
+.icon img:hover{
+    transform: scale(1.04);
+}
+
+.titles{
+    margin-top: 78px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.maintitle{
+    font-size: 56px;
+    font-weight: 600;
+    color:#3C3C3C;
+}
+
+.subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color:#3C3C3C;
+    height: 34px;
+}
+
+.main-btn{
+    margin-top: 34px;
+    display: flex;
+    gap: 24px;
+}
+
+.main-btn .btn01,.btn02{
+    list-style: none;
+    padding: 16px 14px;
+    border: #00CDF5 solid 1px;
+    border-radius: 6px;
+
+    color: #00CDF5;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.main-btn .btn01:hover,.btn02:hover{
+    background-color: #00CDF5;
+    color: #ffffff;
+    transition: ease-in 0.2s;
+}
